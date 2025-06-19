@@ -1,12 +1,12 @@
-package templates;
+package src.templates;
 
 import java.io.*;
 import java.util.*;
 
 public class Template {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter out = new PrintWriter(System.out);
+        BufferedReader br = new BufferedReader(new FileReader("mixmilk.in"));
+        PrintWriter out = new PrintWriter(new FileWriter("mixmilk.out"));
         StringTokenizer st;
 
         // Example: Read an integer
@@ -19,6 +19,7 @@ public class Template {
            arr[i] = Integer.parseInt(st.nextToken());
         }
         
+        br.close();
         out.flush();
         out.close();
     }

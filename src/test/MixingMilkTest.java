@@ -1,7 +1,9 @@
 package src.test;
 
-import src.solutions.usacoguide.Bronze.MixingMilk;
 import org.junit.jupiter.api.Test;
+
+import solutions.usacoguide.Bronze.MixingMilk;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MixingMilkTest {

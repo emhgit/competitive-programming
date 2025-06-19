@@ -49,3 +49,4 @@ output/
 # Ignore test output
 *.out
 *.in 
+/input

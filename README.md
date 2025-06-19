@@ -11,6 +11,25 @@ This repository contains solutions, templates, and utilities for competitive pro
 - `input/` and `output/` — Sample input/output files for local testing.
 - `pom.xml` — Maven build file for dependency management.
 
+## Local testing 
+
+Configure the following lines at the top of your ProblemName.java file and set **LOCAL** to ***true*** to allow for local testing: 
+
+``` java
+    boolean LOCAL = true;
+
+        BufferedReader br;
+        PrintWriter out;
+
+        if (LOCAL) {
+            br = new BufferedReader(new FileReader("src/input/MixingMilk.in"));
+            out = new PrintWriter(new FileWriter("src/output/MixingMilk.out"));
+        } else {
+            br = new BufferedReader(new InputStreamReader(System.in));
+            out = new PrintWriter(System.out);
+        }
+```
+
 ## Usage
 
 1. **Clone the repository:**

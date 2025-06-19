@@ -45,7 +45,7 @@ Configure the following lines at the top of your ProblemName.java file and set *
    ```sh
    java -cp src/main/java path.to.ProblemName
    ```
-4. **Run tests (if using Maven):**
+4. **(Optonal) Run tests (if using Maven):**
    ```sh
    mvn test
    ```

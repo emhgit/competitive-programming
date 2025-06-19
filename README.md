@@ -1,6 +1,6 @@
 # Competitive Programming in Java
 
-This repository contains solutions, templates, and utilities for competitive programming in Java. It is structured for fast problem-solving, easy code reuse, and efficient testing.
+This repository contains my solutions, templates, and utilities for competitive programming in Java.
 
 ## Structure
 

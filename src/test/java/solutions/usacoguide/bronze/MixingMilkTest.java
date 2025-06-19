@@ -1,4 +1,4 @@
-package src.test;
+package solutions.usacoguide.bronze;
 
 import org.junit.jupiter.api.Test;
 

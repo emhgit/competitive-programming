@@ -1,4 +1,4 @@
-package src.solutions.usacoguide.Bronze;
+package solutions.usacoguide.Bronze;
 import java.io.*;
 import java.util.*;
 

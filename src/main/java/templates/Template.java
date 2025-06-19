@@ -1,10 +1,24 @@
+package templates;
+
 import java.io.*;
 import java.util.*;
 
-public class ShellGame {
+public class Template {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("mixmilk.in"));
-        PrintWriter out = new PrintWriter(new FileWriter("mixmilk.out"));
+
+        boolean LOCAL = false;
+
+        BufferedReader br;
+        PrintWriter out;
+
+        if (LOCAL) {
+            br = new BufferedReader(new FileReader("src/input/problemname.in"));
+            out = new PrintWriter(new FileWriter("src/output/problemname.out"));
+        } else {
+            br = new BufferedReader(new FileReader("problemname.in"));
+            out = new PrintWriter(new FileWriter("problemname.out"));
+        }
+
         StringTokenizer st;
 
         // Example: Read an integer

@@ -11,11 +11,11 @@ This repository contains solutions, templates, and utilities for competitive pro
 - `input/` and `output/` — Sample input/output files for local testing.
 - `pom.xml` — Maven build file for dependency management.
 
-## Local testing 
+## Local testing
 
-Configure the following lines at the top of your ProblemName.java file and set **LOCAL** to ***true*** to allow for local testing: 
+Configure the following lines at the top of your ProblemName.java file and set **LOCAL** to **_true_** to allow for local testing:
 
-``` java
+```java
     boolean LOCAL = true;
 
         BufferedReader br;
@@ -25,8 +25,8 @@ Configure the following lines at the top of your ProblemName.java file and set *
             br = new BufferedReader(new FileReader("src/input/MixingMilk.in"));
             out = new PrintWriter(new FileWriter("src/output/MixingMilk.out"));
         } else {
-            br = new BufferedReader(new InputStreamReader(System.in));
-            out = new PrintWriter(System.out);
+            br = new BufferedReader(new FileReader("problemname.in"));
+            out = new PrintWriter(new FileWriter("problemname.out"));
         }
 ```
 

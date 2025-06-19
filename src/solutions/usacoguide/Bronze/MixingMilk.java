@@ -1,7 +1,10 @@
+package src.solutions.usacoguide.Bronze;
 import java.io.*;
 import java.util.*;
 
 public class MixingMilk {
+    // Problem URL: https://usaco.org/index.php?page=viewproblem2&cpid=855#
+    
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("mixmilk.in"));
         PrintWriter out = new PrintWriter(new FileWriter("mixmilk.out"));

@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class ShellGame {
+    //Problem URL: https://usaco.org/index.php?page=viewproblem2&cpid=891
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("shell.in"));
         PrintWriter out = new PrintWriter(new FileWriter("shell.out"));

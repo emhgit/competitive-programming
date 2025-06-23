@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class TheBucketList {
+    // Problem URL: https://usaco.org/index.php?page=viewproblem2&cpid=856
     public static void main(String[] args) throws IOException {
 
         boolean LOCAL = true;
@@ -22,25 +23,24 @@ public class TheBucketList {
         StringTokenizer st;
 
         int n = Integer.parseInt(br.readLine());
+        int max = 0;
 
-        int[][] cows = new int[n][3];
+        int[] intervals = new int[1001];
         for (int i = 0; i < n; i++) {
             st = new StringTokenizer(br.readLine());
-            cows[i][0] = Integer.parseInt(st.nextToken());
-            cows[i][1] = Integer.parseInt(st.nextToken());
-            cows[i][2] = Integer.parseInt(st.nextToken());
+            int s = Integer.parseInt(st.nextToken());
+            int t = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
+            for (int j = s; j <= t; j++) {
+                intervals[j] += b;
+                max = Math.max(max, intervals[j]);
+            }
         }
-
-        int answer = solve(cows);
-        out.println(answer);
+        out.println(max);
 
         br.close();
         out.flush();
         out.close();
     }
 
-    public static int solve(int[][] cows) {
-        int buckets = 0;
-        return buckets;
-    }
 }

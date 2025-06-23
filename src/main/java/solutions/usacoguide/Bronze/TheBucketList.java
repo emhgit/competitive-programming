@@ -41,11 +41,6 @@ public class TheBucketList {
 
     public static int solve(int[][] cows) {
         int buckets = 0;
-        for (int i = 0; i < cows.length; i++) {
-            int s = cows[i][0];
-            int t = cows[i][1];
-            int b = cows[i][2];
-        }
         return buckets;
     }
 }

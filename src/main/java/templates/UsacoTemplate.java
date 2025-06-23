@@ -3,10 +3,20 @@ package templates;
 import java.io.*;
 import java.util.*;
 
-public class Template {
+public class UsacoTemplate {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
+        boolean LOCAL = false;
+
+        BufferedReader br;
+        PrintWriter out;
+
+        if (LOCAL) {
+            br = new BufferedReader(new FileReader("src/input/problemname.in"));
+            out = new PrintWriter(new FileWriter("src/output/problemname.out"));
+        } else {
+            br = new BufferedReader(new FileReader("problemname.in"));
+            out = new PrintWriter(new FileWriter("problemname.out"));
+        }
 
         StringTokenizer st;
 

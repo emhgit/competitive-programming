@@ -4,10 +4,11 @@ This directory contains Java solutions to various competitive programming proble
 
 ## Solved Problems
 
-| Problem Name    | Source / Link                                                                            | File Name           |
-| --------------- | ---------------------------------------------------------------------------------------- | ------------------- |
-| Mixing Milk     | [USACO Bronze - Mixing Milk](https://usaco.org/index.php?page=viewproblem2&cpid=855#)    | MixingMilk.java     |
-| Speeding Ticket | [USACO Bronze - Speeding Ticket](https://usaco.org/index.php?page=viewproblem2&cpid=568) | SpeedingTicket.java |
-| The Lost Cow    | [USACO Bronze - The Lost Cow](https://usaco.org/index.php?page=viewproblem2&cpid=735)    | TheLostCow.java     |
-| Shell Game      | [USACO Bronze - Shell Game](https://usaco.org/index.php?page=viewproblem2&cpid=891)      | ShellGame.java      |
-| Cow Signal      | [USACO Bronze - Cow Signal](http://www.usaco.org/index.php?page=viewproblem2&cpid=665)   | CowSignal.java      |
+| Problem Name       | Source / Link                                                                                  | File Name             |
+| ------------------ | ---------------------------------------------------------------------------------------------- | --------------------- |
+| Mixing Milk        | [USACO Bronze - Mixing Milk](https://usaco.org/index.php?page=viewproblem2&cpid=855#)          | MixingMilk.java       |
+| Speeding Ticket    | [USACO Bronze - Speeding Ticket](https://usaco.org/index.php?page=viewproblem2&cpid=568)       | SpeedingTicket.java   |
+| The Lost Cow       | [USACO Bronze - The Lost Cow](https://usaco.org/index.php?page=viewproblem2&cpid=735)          | TheLostCow.java       |
+| Shell Game         | [USACO Bronze - Shell Game](https://usaco.org/index.php?page=viewproblem2&cpid=891)            | ShellGame.java        |
+| Cow Signal         | [USACO Bronze - Cow Signal](http://www.usaco.org/index.php?page=viewproblem2&cpid=665)         | CowSignal.java        |
+| The Bovine Shuffle | [USACO Bronze - The Bovine Shuffle](http://www.usaco.org/index.php?page=viewproblem2&cpid=760) | TheBovineShuffle.java |

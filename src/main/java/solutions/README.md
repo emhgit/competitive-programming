@@ -14,3 +14,4 @@ This directory contains Java solutions to various competitive programming proble
 | The Bovine Shuffle | [USACO Bronze - The Bovine Shuffle](http://www.usaco.org/index.php?page=viewproblem2&cpid=760) | TheBovineShuffle.java |
 | The Bucket List    | [USACO Bronze - The Bucket List](https://usaco.org/index.php?page=viewproblem2&cpid=856)       | TheBucketList.java    |
 | Quests             | [CodeForces - Quests](https://codeforces.com/problemset/problem/1914/C)                        | Quests.java           |
+| Herdle             | [USACO Bronze - Herdle](http://www.usaco.org/index.php?page=viewproblem2&cpid=1179)            | Herdle.java           |

@@ -4,19 +4,10 @@ import java.io.*;
 import java.util.*;
 
 public class Quests {
+    // Problem URL: https://codeforces.com/problemset/problem/1914/C
     public static void main(String[] args) throws IOException {
-        boolean LOCAL = true;
-
-        BufferedReader br;
-        PrintWriter out;
-
-        if (LOCAL) {
-            br = new BufferedReader(new FileReader("src/input/problemname.in"));
-            out = new PrintWriter(new FileWriter("src/output/problemname.out"));
-        } else {
-            br = new BufferedReader(new FileReader("problemname.in"));
-            out = new PrintWriter(new FileWriter("problemname.out"));
-        }
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st;
 
@@ -28,18 +19,17 @@ public class Quests {
             int k = Integer.parseInt(st.nextToken()); // max quests
 
             st = new StringTokenizer(br.readLine());
-            int[] firstCompletions = new int[n];
+            int[] first = new int[n]; // first completions
             for (int j = 0; j < n; j++) {
-                firstCompletions[j] = Integer.parseInt(st.nextToken());
+                first[j] = Integer.parseInt(st.nextToken());
             }
 
             st = new StringTokenizer(br.readLine());
-            int[] subsequentCompletions = new int[n];
+            int[] subs = new int[n]; // subsequent completions
             for (int j = 0; j < n; j++) {
-                subsequentCompletions[j] = Integer.parseInt(st.nextToken());
+                subs[j] = Integer.parseInt(st.nextToken());
             }
-
-            out.println(solve(k, firstCompletions, subsequentCompletions));
+            out.println(solve(k, first, subs));
         }
 
         br.close();
@@ -47,7 +37,17 @@ public class Quests {
         out.close();
     }
 
-    public static int solve(int k, int[] firstCompletions, int[] subsequentCompletions) {
-        return 0;
+    public static int solve(int k, int[] first, int[] subs) {
+        int n = Math.min(k, first.length);
+        int subsExp = subs[0];
+        int totalExp = first[0];
+        int maxExp = first[0] + subsExp * (k - 1);
+        for (int i = 1; i < n; i++) {
+            int currFirst = first[i];
+            subsExp = Math.max(subsExp, subs[i]);
+            maxExp = Math.max(maxExp, totalExp + currFirst + subsExp * (k - (i + 1)));
+            totalExp += currFirst;
+        }
+        return maxExp;
     }
 }

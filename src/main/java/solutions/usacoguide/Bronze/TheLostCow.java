@@ -44,10 +44,4 @@ public class TheLostCow {
         out.flush();
         out.close();
     }
-    // y
-    // -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10 11
-    // x
-    // dist = 4
-    // travelled = 3
-    // dir = 1
 }

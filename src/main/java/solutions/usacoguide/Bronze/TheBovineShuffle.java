@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class TheBovineShuffle {
+    // Problem URL: http://www.usaco.org/index.php?page=viewproblem2&cpid=760
     public static void main(String[] args) throws IOException {
 
         boolean LOCAL = true;

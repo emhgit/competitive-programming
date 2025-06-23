@@ -13,3 +13,4 @@ This directory contains Java solutions to various competitive programming proble
 | Cow Signal         | [USACO Bronze - Cow Signal](http://www.usaco.org/index.php?page=viewproblem2&cpid=665)         | CowSignal.java        |
 | The Bovine Shuffle | [USACO Bronze - The Bovine Shuffle](http://www.usaco.org/index.php?page=viewproblem2&cpid=760) | TheBovineShuffle.java |
 | The Bucket List    | [USACO Bronze - The Bucket List](https://usaco.org/index.php?page=viewproblem2&cpid=856)       | TheBucketList.java    |
+| Quests             | [CodeForces - Quests](https://codeforces.com/problemset/problem/1914/C)                        | Quests.java           |

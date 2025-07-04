@@ -30,7 +30,6 @@ public class MilkMeasurement {
             int day = Integer.parseInt(st.nextToken());
             String cow = st.nextToken();
             int change = Integer.parseInt(st.nextToken());
-            System.out.println(change);
             switch (cow) {
                 case "Bessie":
                     bessie[day] = change;
@@ -41,6 +40,27 @@ public class MilkMeasurement {
                 case "Mildred":
                     mildred[day] = change;
                     break;
+            }
+        }
+
+        int bessieTotal = 7, elsieTotal = 7, mildredTotal = 7;
+        int max = 7;
+        int change = 0;
+        for (int i = 0; i < 101; i++) {
+            bessieTotal += bessie[i];
+            elsieTotal += elsie[i];
+            mildredTotal += mildred[i];
+
+            if (bessieTotal > max || elsieTotal > max || mildredTotal > max) {
+                boolean bessieIsHighest = bessieTotal > elsieTotal && bessieTotal > mildredTotal;
+                boolean elsieIsHighest = elsieTotal > bessieTotal && elsieTotal > mildredTotal;
+                boolean mildredIsHighest = mildredTotal > bessieTotal && mildredTotal > elsieTotal;
+
+                if (bessieIsHighest || elsieIsHighest || mildredIsHighest)
+                    change++;
+
+            } else if (bessieTotal == max || elsieTotal == max || mildredTotal == max) {
+
             }
         }
 

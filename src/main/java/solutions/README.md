@@ -17,3 +17,4 @@ This directory contains Java solutions to various competitive programming proble
 | Herdle             | [USACO Bronze - Herdle](http://www.usaco.org/index.php?page=viewproblem2&cpid=1179)            | Herdle.java           |
 | Mowing the Field   | [USACO Bronze - Mowing the Field](https://usaco.org/index.php?page=viewproblem2&cpid=593)      | MowingTheField.java   |
 | Block Game         | [USACO Bronze - Block Game](https://usaco.org/index.php?page=viewproblem2&cpid=664)            | BlockGame.java        |
+| Concert Tickets    | [CSES - Concert Tickets](https://cses.fi/problemset/task/1091)                                 | ConcertTickets.java   |

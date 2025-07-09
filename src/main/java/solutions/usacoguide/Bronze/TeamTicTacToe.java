@@ -20,6 +20,7 @@ public class TeamTicTacToe {
 
         String[] board = new String[3];
         Set<Character> visitedChars;
+        Set<String> winners = new HashSet<>();
         int individualWins = 0, teamWins = 0;
 
         for (int i = 0; i < 3; i++) {
@@ -33,10 +34,13 @@ public class TeamTicTacToe {
             for (int j = 0; j < currStr.length(); j++) {
                 visitedChars.add(currStr.charAt(j));
             }
-            if (visitedChars.size() == 1)
+            if (visitedChars.size() == 1 && !winners.contains(visitedChars.toString())) {
+                winners.add(visitedChars.toString());
                 individualWins++;
-            else if (visitedChars.size() == 2)
+            } else if (visitedChars.size() == 2 && !winners.contains(visitedChars.toString())) {
+                winners.add(visitedChars.toString());
                 teamWins++;
+            }
         }
 
         // iterate over each col
@@ -45,10 +49,13 @@ public class TeamTicTacToe {
             for (int j = 0; j < board.length; j++) {
                 visitedChars.add(board[j].charAt(i));
             }
-            if (visitedChars.size() == 1)
+            if (visitedChars.size() == 1 && !winners.contains(visitedChars.toString())) {
+                winners.add(visitedChars.toString());
                 individualWins++;
-            else if (visitedChars.size() == 2)
+            } else if (visitedChars.size() == 2 && !winners.contains(visitedChars.toString())) {
+                winners.add(visitedChars.toString());
                 teamWins++;
+            }
         }
 
         // iterate over left diagonal
@@ -57,10 +64,13 @@ public class TeamTicTacToe {
             visitedChars.add(board[i].charAt(i));
         }
 
-        if (visitedChars.size() == 1)
+        if (visitedChars.size() == 1 && !winners.contains(visitedChars.toString())) {
+            winners.add(visitedChars.toString());
             individualWins++;
-        else if (visitedChars.size() == 2)
+        } else if (visitedChars.size() == 2 && !winners.contains(visitedChars.toString())) {
+            winners.add(visitedChars.toString());
             teamWins++;
+        }
 
         // iterate over right diagonal
         visitedChars = new HashSet<>();
@@ -68,10 +78,11 @@ public class TeamTicTacToe {
             visitedChars.add(board[j].charAt(i));
         }
 
-        if (visitedChars.size() == 1)
+        if (visitedChars.size() == 1 && !winners.contains(visitedChars.toString())) {
             individualWins++;
-        else if (visitedChars.size() == 2)
+        } else if (visitedChars.size() == 2 && !winners.contains(visitedChars.toString())) {
             teamWins++;
+        }
 
         out.println(individualWins);
         out.println(teamWins);

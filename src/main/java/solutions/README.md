@@ -19,3 +19,4 @@ This directory contains Java solutions to various competitive programming proble
 | Block Game         | [USACO Bronze - Block Game](https://usaco.org/index.php?page=viewproblem2&cpid=664)            | BlockGame.java        |
 | Concert Tickets    | [CSES - Concert Tickets](https://cses.fi/problemset/task/1091)                                 | ConcertTickets.java   |
 | Circular Barn      | [USACO Bronze - Circular Barn](https://usaco.org/index.php?page=viewproblem2&cpid=616)         | CircularBarn.java     |
+| Team Tic Tac Toe   | [USACO Bronze - Team Tic Tac Toe](https://usaco.org/index.php?page=viewproblem2&cpid=831)      | TeamTicTacToe.java    |

@@ -20,3 +20,4 @@ This directory contains Java solutions to various competitive programming proble
 | Concert Tickets    | [CSES - Concert Tickets](https://cses.fi/problemset/task/1091)                                 | ConcertTickets.java   |
 | Circular Barn      | [USACO Bronze - Circular Barn](https://usaco.org/index.php?page=viewproblem2&cpid=616)         | CircularBarn.java     |
 | Team Tic Tac Toe   | [USACO Bronze - Team Tic Tac Toe](https://usaco.org/index.php?page=viewproblem2&cpid=831)      | TeamTicTacToe.java    |
+| Stuck in a Rut     | [USACO Bronze - Stuck in a Rut](http://www.usaco.org/index.php?page=viewproblem2&cpid=1061)    | StuckInARut.java      |

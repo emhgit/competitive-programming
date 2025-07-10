@@ -22,3 +22,4 @@ This directory contains Java solutions to various competitive programming proble
 | Team Tic Tac Toe   | [USACO Bronze - Team Tic Tac Toe](https://usaco.org/index.php?page=viewproblem2&cpid=831)      | TeamTicTacToe.java    |
 | Stuck in a Rut     | [USACO Bronze - Stuck in a Rut](http://www.usaco.org/index.php?page=viewproblem2&cpid=1061)    | StuckInARut.java      |
 | Censoring          | [USACO Bronze - Censoring](http://www.usaco.org/index.php?page=viewproblem2&cpid=526)          | Censoring.java        |
+| Milk Measurement   | [USACO Bronze - Milk Measurement](https://usaco.org/index.php?page=viewproblem2&cpid=761)      | MilkMeasurement.java  |

@@ -23,3 +23,4 @@ This directory contains Java solutions to various competitive programming proble
 | Stuck in a Rut     | [USACO Bronze - Stuck in a Rut](http://www.usaco.org/index.php?page=viewproblem2&cpid=1061)    | StuckInARut.java      |
 | Censoring          | [USACO Bronze - Censoring](http://www.usaco.org/index.php?page=viewproblem2&cpid=526)          | Censoring.java        |
 | Milk Measurement   | [USACO Bronze - Milk Measurement](https://usaco.org/index.php?page=viewproblem2&cpid=761)      | MilkMeasurement.java  |
+| Max Distance       | [CodeForces - Max Distance ](https://codeforces.com/gym/102951/problem/A)                      | MaxDistance.java      |

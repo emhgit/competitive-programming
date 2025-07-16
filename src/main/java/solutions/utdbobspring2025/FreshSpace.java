@@ -12,7 +12,7 @@ public class FreshSpace {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         int n = Integer.parseInt(st.nextToken());
-        int r = Integer.parseInt(st.nextToken());
+        st.nextToken();
         Set<Integer> visitedRooms = new HashSet<>();
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {

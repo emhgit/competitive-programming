@@ -12,7 +12,7 @@ public class LovelyDecryption {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
+        st.nextToken();
         int q = Integer.parseInt(st.nextToken());
 
         String encryptedMsg = br.readLine();

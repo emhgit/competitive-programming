@@ -1,4 +1,4 @@
-package solutions.utdbobspring2025;
+package solutions.utdbobspringnovice2025;
 
 import java.io.*;
 import java.util.*;

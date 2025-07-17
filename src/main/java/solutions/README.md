@@ -33,3 +33,4 @@ This directory contains Java solutions to various competitive programming proble
 | Near Perfect       | [UTD BoB Novice - Near Perfect](https://www.hackerrank.com/contests/utd-bob-spring-2025-novice/challenges/near-perfect)                | NearPerfect.java      |
 | Pizza Piece Ratio  | [UTD BoB Novice - Pizza Piece Ratio](https://www.hackerrank.com/contests/utd-bob-spring-2025-novice/challenges/pizza-piece-ratio)      | PizzaPieceRatio.java  |
 | Pairs Apart        | [UTD BoB Novice - Pairs Apart](https://www.hackerrank.com/contests/utd-bob-fall-2024-novice/challenges/pairs-apart)                    | PairsApart.java       |
+| Good BoB           | [UTD BoB Novice - Good BoB](https://www.hackerrank.com/contests/utd-bob-fall-2024-novice/challenges/good-bob)                          | GoodBoB.java          |

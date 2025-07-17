@@ -1,4 +1,4 @@
-package solutions.utdbobspringnovice2025;
+package solutions.utdbobspring2025.novice;
 
 import java.io.BufferedReader;
 import java.io.IOException;

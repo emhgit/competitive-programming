@@ -26,3 +26,4 @@ This directory contains Java solutions to various competitive programming proble
 | Max Distance       | [CodeForces - Max Distance ](https://codeforces.com/gym/102951/problem/A)                      | MaxDistance.java      |
 | Milk Pails         | [USACO Bronze - Milk Pails](https://usaco.org/index.php?page=viewproblem2&cpid=615)            | MilkPails.java        |
 | Diamond Collector  | [USACO Bronze - Diamond Collector](https://usaco.org/index.php?page=viewproblem2&cpid=639)     | DiamondCollector.java |
+| Mad Scientist      | [USACO Bronze - Mad Scientist](https://usaco.org/index.php?page=viewproblem2&cpid=1012)        | MadScientist.java     |

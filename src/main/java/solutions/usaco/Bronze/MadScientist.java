@@ -1,4 +1,4 @@
-package solutions.usacoguide.Bronze;
+package solutions.usaco.Bronze;
 
 import java.io.*;
 

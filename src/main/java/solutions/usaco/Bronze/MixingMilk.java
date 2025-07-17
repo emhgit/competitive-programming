@@ -1,10 +1,11 @@
-package solutions.usacoguide.Bronze;
+package solutions.usaco.Bronze;
+
 import java.io.*;
 import java.util.*;
 
 public class MixingMilk {
     // Problem URL: https://usaco.org/index.php?page=viewproblem2&cpid=855#
-    
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("mixmilk.in"));
         PrintWriter out = new PrintWriter(new FileWriter("mixmilk.out"));
@@ -20,15 +21,16 @@ public class MixingMilk {
         }
 
         int[] result = solve(capacity, milk);
-        for(int i = 0; i < 3; i++) out.println(result[i]);
+        for (int i = 0; i < 3; i++)
+            out.println(result[i]);
 
         br.close();
         out.flush();
         out.close();
     }
 
-    public static int[] solve(int[] capacity, int[] milk){
-        for(int i = 0; i < 100; i++){
+    public static int[] solve(int[] capacity, int[] milk) {
+        for (int i = 0; i < 100; i++) {
             int bucket1 = i % 3;
             int bucket2 = (i + 1) % 3;
 
@@ -36,7 +38,7 @@ public class MixingMilk {
 
             milk[bucket1] -= amt;
             milk[bucket2] += amt;
-        }       
+        }
         return milk;
     }
 }

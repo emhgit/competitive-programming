@@ -1,10 +1,10 @@
-package solutions.usacoguide.Bronze;
+package solutions.usaco.Bronze;
 
 import java.io.*;
 import java.util.*;
 
 public class ShellGame {
-    //Problem URL: https://usaco.org/index.php?page=viewproblem2&cpid=891
+    // Problem URL: https://usaco.org/index.php?page=viewproblem2&cpid=891
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("shell.in"));
         PrintWriter out = new PrintWriter(new FileWriter("shell.out"));
@@ -30,17 +30,18 @@ public class ShellGame {
         out.close();
     }
 
-    public static int calculate(int n, int[] a, int[] b, int[] g){
+    public static int calculate(int n, int[] a, int[] b, int[] g) {
         int[] correct = new int[3];
-        for(int i = 0; i < 3; i++){
+        for (int i = 0; i < 3; i++) {
             int curr = i + 1;
-            for(int j = 0; j < n; j++){
-                if(a[j] == curr){
+            for (int j = 0; j < n; j++) {
+                if (a[j] == curr) {
                     curr = b[j];
-                } else if(b[j] == curr){
+                } else if (b[j] == curr) {
                     curr = a[j];
                 }
-                if (g[j] == curr) correct[i]++;
+                if (g[j] == curr)
+                    correct[i]++;
             }
         }
         return Math.max(correct[0], Math.max(correct[1], correct[2]));

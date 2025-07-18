@@ -34,3 +34,4 @@ This directory contains Java solutions to various competitive programming proble
 | Pizza Piece Ratio  | [UTD BoB Novice - Pizza Piece Ratio](https://www.hackerrank.com/contests/utd-bob-spring-2025-novice/challenges/pizza-piece-ratio)      | PizzaPieceRatio.java  |
 | Pairs Apart        | [UTD BoB Novice - Pairs Apart](https://www.hackerrank.com/contests/utd-bob-fall-2024-novice/challenges/pairs-apart)                    | PairsApart.java       |
 | Good BoB           | [UTD BoB Novice - Good BoB](https://www.hackerrank.com/contests/utd-bob-fall-2024-novice/challenges/good-bob)                          | GoodBoB.java          |
+| Daisy Chains       | [USACO Bronze - Daisy Chains](https://usaco.org/index.php?page=viewproblem2&cpid=1060)                                                 | DaisyChains.java      |

@@ -35,3 +35,4 @@ This directory contains Java solutions to various competitive programming proble
 | Pairs Apart        | [UTD BoB Novice - Pairs Apart](https://www.hackerrank.com/contests/utd-bob-fall-2024-novice/challenges/pairs-apart)                    | PairsApart.java       |
 | Good BoB           | [UTD BoB Novice - Good BoB](https://www.hackerrank.com/contests/utd-bob-fall-2024-novice/challenges/good-bob)                          | GoodBoB.java          |
 | Daisy Chains       | [USACO Bronze - Daisy Chains](https://usaco.org/index.php?page=viewproblem2&cpid=1060)                                                 | DaisyChains.java      |
+| Counting Liars     | [USACO Bronze - Counting Liars](http://usaco.org/index.php?page=viewproblem2&cpid=1228)                                                | CountingLiars.java    |

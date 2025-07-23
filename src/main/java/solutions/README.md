@@ -38,3 +38,4 @@ This directory contains Java solutions to various competitive programming proble
 | Counting Liars     | [USACO Bronze - Counting Liars](http://usaco.org/index.php?page=viewproblem2&cpid=1228)                                                | CountingLiars.java    |
 | Bovine Genomics    | [USACO Bronze - Bovine Genomics ](http://www.usaco.org/index.php?page=viewproblem2&cpid=736)                                           | BovineGenomics.java   |
 | Triangles          | [USACO Bronze - Triangles ](https://usaco.org/index.php?page=viewproblem2&cpid=1011)                                                   | Triangles.java        |
+| Lifeguards         | [USACO Bronze - Lifeguards ](https://usaco.org/index.php?page=viewproblem2&cpid=784)                                                   | Lifeguards.java       |

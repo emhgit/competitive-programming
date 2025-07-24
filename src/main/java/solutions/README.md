@@ -36,6 +36,7 @@ This directory contains Java solutions to various competitive programming proble
 | Good BoB           | [UTD BoB Novice - Good BoB](https://www.hackerrank.com/contests/utd-bob-fall-2024-novice/challenges/good-bob)                          | GoodBoB.java          |
 | Daisy Chains       | [USACO Bronze - Daisy Chains](https://usaco.org/index.php?page=viewproblem2&cpid=1060)                                                 | DaisyChains.java      |
 | Counting Liars     | [USACO Bronze - Counting Liars](http://usaco.org/index.php?page=viewproblem2&cpid=1228)                                                | CountingLiars.java    |
-| Bovine Genomics    | [USACO Bronze - Bovine Genomics ](http://www.usaco.org/index.php?page=viewproblem2&cpid=736)                                           | BovineGenomics.java   |
-| Triangles          | [USACO Bronze - Triangles ](https://usaco.org/index.php?page=viewproblem2&cpid=1011)                                                   | Triangles.java        |
-| Lifeguards         | [USACO Bronze - Lifeguards ](https://usaco.org/index.php?page=viewproblem2&cpid=784)                                                   | Lifeguards.java       |
+| Bovine Genomics    | [USACO Bronze - Bovine Genomics](http://www.usaco.org/index.php?page=viewproblem2&cpid=736)                                            | BovineGenomics.java   |
+| Triangles          | [USACO Bronze - Triangles](https://usaco.org/index.php?page=viewproblem2&cpid=1011)                                                    | Triangles.java        |
+| Lifeguards         | [USACO Bronze - Lifeguards](https://usaco.org/index.php?page=viewproblem2&cpid=784)                                                    | Lifeguards.java       |
+| Cow Gymnastics     | [USACO Bronze - Cow Gymnastics](https://usaco.org/index.php?page=viewproblem2&cpid=963)                                                | CowGymnastics.java    |

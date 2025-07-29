@@ -44,3 +44,4 @@ This directory contains Java solutions to various competitive programming proble
 | Why Did the Cow Cross the Road III | [USACO Bronze - Why Did the Cow Cross the Road III](https://usaco.org/index.php?page=viewproblem2&cpid=713)                            | Sorting + Custom DS              |
 | Load Balancing                     | [USACO Bronze - Load Balancing](http://www.usaco.org/index.php?page=viewproblem2&cpid=617)                                             | HashSet + Full Search            |
 | Contaminated Milk                  | [USACO Bronze - Contaminated Milk](https://usaco.org/index.php?page=viewproblem2&cpid=569)                                             | HashSet + Full Search + String   |
+| Guess The Animal                   | [USACO Bronze - Guess The Animal](https://usaco.org/index.php?page=viewproblem2&cpid=893)                                              | HashSet + Full Search + String   |

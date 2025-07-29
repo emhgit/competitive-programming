@@ -42,3 +42,4 @@ This directory contains Java solutions to various competitive programming proble
 | Cow Gymnastics                     | [USACO Bronze - Cow Gymnastics](https://usaco.org/index.php?page=viewproblem2&cpid=963)                                                | CowGymnastics.java               |
 | Why Did the Cow Cross the Road II  | [USACO Bronze - Why Did the Cow Cross the Road II](https://usaco.org/index.php?page=viewproblem2&cpid=712)                             | WhyDidTheCowCrossTheRoadII.java  |
 | Why Did the Cow Cross the Road III | [USACO Bronze - Why Did the Cow Cross the Road III](https://usaco.org/index.php?page=viewproblem2&cpid=713)                            | WhyDidTheCowCrossTheRoadIII.java |
+| Load Balancing                     | [USACO Bronze - Load Balancing](http://www.usaco.org/index.php?page=viewproblem2&cpid=617)                                             | LoadBalancing.java               |

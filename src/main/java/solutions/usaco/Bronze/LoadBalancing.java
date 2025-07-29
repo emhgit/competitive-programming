@@ -3,13 +3,13 @@ package solutions.usaco.Bronze;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class LoadBalancing {
     static Point[] points;
     static Set<Integer> xSet, ySet;
     static int N, B;
-    
-	public static void main(String[] args) throws IOException {
-		    boolean LOCAL = false;
+
+    public static void main(String[] args) throws IOException {
+        boolean LOCAL = false;
 
         BufferedReader br;
         PrintWriter out;
@@ -22,14 +22,14 @@ public class Main {
             out = new PrintWriter(new FileWriter("balancing.out"));
         }
 
-		    StringTokenizer st = new StringTokenizer(br.readLine());
-		    N = Integer.parseInt(st.nextToken());
-		    B = Integer.parseInt(st.nextToken());
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        N = Integer.parseInt(st.nextToken());
+        B = Integer.parseInt(st.nextToken());
 
         points = new Point[N];
         xSet = new HashSet<>();
         ySet = new HashSet<>();
-         // read in and store points in an arr
+        // read in and store points in an arr
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
             int x = Integer.parseInt(st.nextToken());
@@ -38,7 +38,7 @@ public class Main {
             ySet.add(y);
             points[i] = new Point(x, y);
         }
-       
+
         // add x and y to sets
         // iterate over x
         int min = Integer.MAX_VALUE;
@@ -55,11 +55,11 @@ public class Main {
         // iterate over y
         // set a plus one and minus one and set max
         // print max
-		
+
         br.close();
         out.flush();
-		out.close();
-	}
+        out.close();
+    }
 
     static int calculateMax(int x, int y, int j, int k) {
         int q1 = 0, q2 = 0, q3 = 0, q4 = 0;
@@ -81,8 +81,8 @@ public class Main {
     static class Point {
         int x;
         int y;
-        
-        public Point (int x, int y) {
+
+        public Point(int x, int y) {
             this.x = x;
             this.y = y;
         }

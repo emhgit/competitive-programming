@@ -3,16 +3,16 @@ package solutions.usaco.Bronze;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class AirConditioningII {
     static int[] cows;
     static int[] curr;
     static AC[] acs;
     static int cost = Integer.MAX_VALUE, currCost = 0;
     static int N, M;
-    
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
@@ -38,7 +38,7 @@ public class Main {
         }
         search();
         out.println(cost);
-        
+
         br.close();
         out.flush();
         out.close();
@@ -73,14 +73,14 @@ public class Main {
                 curr[j] += acs[i].amt;
             }
         }
-          
+
     }
 
     static class AC {
         int start, end, amt, cost;
         boolean active;
 
-        public AC (int start, int end, int amt, int cost) {
+        public AC(int start, int end, int amt, int cost) {
             this.start = start;
             this.end = end;
             this.amt = amt;

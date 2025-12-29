@@ -39,6 +39,21 @@ public class Utils {
     }
 
     /**
+     * This methods returns the least common multiple, c, of a and b by dividing a
+     * and b by their greatest common divisor (gcd)
+     * 
+     * @param a The first factor of c
+     * @param b The second factor of c
+     * @return the least common multiple of a and b, c
+     */
+    static long lcm(long a, long b) {
+        if (a == 0 || b == 0) {
+            return 0;
+        }
+        return (a / gcd(a, b)) * b;
+    }
+
+    /**
      * This method returns a boolean array of size n + 1, where the ith index is
      * true if the ith number is prime, false otherwise;
      * Calculated using the Sieve of Eratosthenes; \mathcal{O}(n \log{n})

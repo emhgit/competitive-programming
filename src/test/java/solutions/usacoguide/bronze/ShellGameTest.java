@@ -2,7 +2,7 @@ package solutions.usacoguide.bronze;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.usaco.Bronze.ShellGame;
+import solutions.usaco.bronze.ShellGame;
 
 import static org.junit.jupiter.api.Assertions.*;
 

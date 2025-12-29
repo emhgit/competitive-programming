@@ -2,7 +2,7 @@ package solutions.usacoguide.bronze;
 
 import org.junit.jupiter.api.Test;
 
-import solutions.usaco.Bronze.MixingMilk;
+import solutions.usaco.bronze.MixingMilk;
 
 import static org.junit.jupiter.api.Assertions.*;
 

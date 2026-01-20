@@ -59,11 +59,19 @@ mvn test
    git clone <repo-url>
    cd competitive-programming
    ```
-2. **Compile a solution in java:**
+2. **Compile a solution in C++:**
+   ```sh
+     g++ -std=c++17 -O2 name.cpp -o name -Wall
+   ```
+3. **Run a solution in C++:**
+   ```sh
+   ./name
+   ```
+4. **Compile a solution in java:**
    ```sh
    javac src/solutions/path/to/ProblemName.java
    ```
-3. **Run a solution in java:**
+5. **Run a solution in java:**
    ```sh
    java -cp src/main/java path.to.ProblemName
    ```

@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    freopen("breedflip.in", "r", stdin);
-    freopen("breedflip.out", "w", stdout);
+    // freopen("breedflip.in", "r", stdin);
+    // freopen("breedflip.out", "w", stdout);
     int N; cin >> N;
     string a; cin >> a;
     string b; cin >> b;

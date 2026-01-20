@@ -1,21 +1,21 @@
 # Competitive Programming in Java
 
-This repository contains my solutions, templates, and utilities for competitive programming in Java.
+This repository contains my solutions, templates, and utilities for competitive programming in C++ and Java.
 
 ## Structure
 
-- `src/solutions` — Solution code, organized by site/category.
-- `src/test/` — Unit tests for problems (optional).
-- `templates/` — Java templates for quick problem setup.
-- `lib/` — External libraries (e.g., JUnit).
-- `input/` and `output/` — Sample input/output files for local testing.
-- `pom.xml` — Maven build file for dependency management.
+- `/java/`: Contains solutions, templates, and testing for java files.
+  - `/java/src/main/java/solutions/`: Java solutions.
+  - `/java/src/test/`: Unit tests for problems (optional).
+  - `/java/src/main/java/templates/`: Java templates for quick problem setup.
+  - `/java/src/input/` and `/java/src/output/`: Sample input/output files for local java testing.
+  - `/java/pom.xml`: Maven build file for dependency management.
 
-## Templates
+- `/cpp/`: Conains solutions and templates for C++ files.
+  - `/cpp/solutions/`: C++ solutions.
+  - `/cpp/templates/`: C++ templates for quick problem setup
 
-Copy a template from `templates/Template.java` to start a new problem quickly.
-
-## Local I/O testing
+## Local I/O testing for Java
 
 1. Configure the following lines at the top of your ProblemName.java file and set **LOCAL** to **_true_** to allow for local testing:
 
@@ -26,15 +26,15 @@ Copy a template from `templates/Template.java` to start a new problem quickly.
         PrintWriter out;
 
         if (LOCAL) {
-            br = new BufferedReader(new FileReader("src/input/problemname.in"));
-            out = new PrintWriter(new FileWriter("src/output/problemname.out"));
+            br = new BufferedReader(new FileReader("java/src/input/problemname.in"));
+            out = new PrintWriter(new FileWriter("java/src/output/problemname.out"));
         } else {
             br = new BufferedReader(new FileReader("problemname.in"));
             out = new PrintWriter(new FileWriter("problemname.out"));
         }
 ```
 
-2. Create the `problemname.in` file in the `src/input` dir and leave your empty `problemname.out` file in the `src/output`
+2. Create the `problemname.in` file in the `java/src/input` dir and leave your empty `problemname.out` file in the `java/src/output`
 
 3. Run your `problemname.java` file and check the `problemname.out` file for results
 
@@ -59,11 +59,11 @@ mvn test
    git clone <repo-url>
    cd competitive-programming
    ```
-2. **Compile a solution:**
+2. **Compile a solution in java:**
    ```sh
    javac src/solutions/path/to/ProblemName.java
    ```
-3. **Run a solution:**
+3. **Run a solution in java:**
    ```sh
    java -cp src/main/java path.to.ProblemName
    ```

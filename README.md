@@ -1,4 +1,4 @@
-# Competitive Programming in Java
+# Competitive Programming
 
 This repository contains my solutions, templates, and utilities for competitive programming in C++ and Java.
 

@@ -11,3 +11,4 @@ This directory contains C++ solutions to various competitive programming problem
 | Tame the Herd      | [USACO Bronze - Tame the Herd](http://www.usaco.org/index.php?page=viewproblem2&cpid=809)      | Ad Hoc           |
 | Watching Mooloo    | [USACO Bronze - Watching Mooloo](http://www.usaco.org/index.php?page=viewproblem2&cpid=1301)   | Greedy Algorithm |
 | Mad Scientist      | [USACO Bronze - Mad Scientist](http://www.usaco.org/index.php?page=viewproblem2&cpid=1012)     | Greedy Algorithm |
+| Cow Tipping        | [USACO Bronze - Cow Tipping](http://www.usaco.org/index.php?page=viewproblem2&cpid=689)        | Greedy Algorithm |

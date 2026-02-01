@@ -14,3 +14,4 @@ This directory contains C++ solutions to various competitive programming problem
 | Cow Tipping          | [USACO Bronze - Cow Tipping](http://www.usaco.org/index.php?page=viewproblem2&cpid=689)           | Greedy Algorithm |
 | Out of Place         | [USACO Bronze - Out of Place](http://www.usaco.org/index.php?page=viewproblem2&cpid=785)          | Greedy Algorithm |
 | Even More Odd Photos | [USACO Bronze - Even More Odd Photos](http://www.usaco.org/index.php?page=viewproblem2&cpid=1084) | Greedy Algorithm |
+| Astral Superposition | [USACO Bronze - Astral Superposition](https://usaco.org/index.php?page=viewproblem2&cpid=1467)    | Greedy Algorithm |

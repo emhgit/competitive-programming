@@ -238,7 +238,7 @@ bool isPrime(int n)
  * @param b second input
  * @return gcd(a,b)
  */
-static long gcd(long a, long b)
+long gcd(long a, long b)
 {
     long dividend = max(a, b), quotient = min(a, b), remainder = dividend % quotient;
     while (remainder != 0)
@@ -257,7 +257,7 @@ static long gcd(long a, long b)
  * @param b second input
  * @return lcm(a,b), 0 if either is 0
  */
-static long lcm(long a, long b)
+long lcm(long a, long b)
 {
     if (a == 0 || b == 0)
     {

@@ -1,4 +1,5 @@
-# Solutions Directory
+| Flip the Bit (Easy Version) | [Flip the Bit (Easy Version)](https://codeforces.com/problemset/problem/2217/B)
+                                          | Ad Hoc           |# Solutions Directory
 
 This directory contains C++ solutions to various competitive programming problems, primarily from the USACO Guide and other online judges. Each subfolder is organized by difficulty or topic, and each file includes a solution to a specific problem, often with a link to the original problem statement.
 
@@ -20,3 +21,5 @@ This directory contains C++ solutions to various competitive programming problem
 | MATSUM                      | [SPOJ - MATSUM](https://www.spoj.com/problems/MATSUM/)                                                                                         | 2D Fenwick Tree  |
 | Drop Blocks                 | [Drop Blocks](https://atcoder.jp/contests/abc459/tasks/abc459_c)                                                                               | Fenwick Tree     |
 | Flip the Bit (Easy Version) | [Flip the Bit (Easy Version)](https://codeforces.com/problemset/problem/2217/B)                                                                | Ad Hoc           |
+| Adjacent Distinct String | [Adjacent Distinct String](https://atcoder.jp/contests/abc459/tasks/abc459_d)
+                                          | HashMap + Greedy         |

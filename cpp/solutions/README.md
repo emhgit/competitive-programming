@@ -21,5 +21,4 @@ This directory contains C++ solutions to various competitive programming problem
 | MATSUM                      | [SPOJ - MATSUM](https://www.spoj.com/problems/MATSUM/)                                                                                         | 2D Fenwick Tree  |
 | Drop Blocks                 | [Drop Blocks](https://atcoder.jp/contests/abc459/tasks/abc459_c)                                                                               | Fenwick Tree     |
 | Flip the Bit (Easy Version) | [Flip the Bit (Easy Version)](https://codeforces.com/problemset/problem/2217/B)                                                                | Ad Hoc           |
-| Adjacent Distinct String | [Adjacent Distinct String](https://atcoder.jp/contests/abc459/tasks/abc459_d)
-                                          | HashMap + Greedy         |
+| Adjacent Distinct String | [Adjacent Distinct String](https://atcoder.jp/contests/abc459/tasks/abc459_d)| HashMap + Greedy         |
